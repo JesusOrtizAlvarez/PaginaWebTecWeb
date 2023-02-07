@@ -1,0 +1,6 @@
+DirectoryIndex home.php index.html index.htm index.php
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW IPALLOWID:iViRLQfjnY
+allow from 127.0.0.1
+
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE iViRLQfjnY:IPALLOWID
+

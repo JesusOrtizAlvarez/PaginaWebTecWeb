@@ -1,0 +1,70 @@
+.contenedor-homeProductos{
+    margin-top: 4cm;
+    width: 100%;
+}
+.tituloRecambios{
+        width: 100%;
+        background: #F21B0A;
+        color: black;
+        padding: 0.4cm;
+        text-align: center;
+        border-radius: 20px;
+}
+
+h2{
+    padding-left: 1.5cm;
+}
+
+.lista{
+    display: inline-flexbox;
+    flex-wrap: wrap;
+}
+
+.subLista{
+    margin-top: 0.6cm;
+    display: flexbox;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    list-style: none;
+    width: 100%;
+}
+.a {
+    display: inline-flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap:wrap;
+}
+
+.div1{
+    margin-left:100px;
+    border-radius: 6px;
+}
+.categoria{
+    color: black;
+    text-decoration: none;
+    width: fit-content;
+}
+.titulos{
+    color: black;
+    text-decoration: none;
+    background-color: #F21B0A;
+    border-radius: 10px;
+
+}
+.open{
+    list-style: none;
+}
+.li1{
+    overflow: hidden;
+}
+.orden{
+    margin-left:100px;
+    display:flex;
+    margin: 0.5rem 0 1rem;
+    background: #fff;
+    
+   
+}
+
+
+

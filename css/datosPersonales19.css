@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.divGeneralMisDatos{
+    margin-top: 80px;
+    height: 600px;
+    width: 100%;
+}
+.divMenuLateral{
+    float: left;
+    width: 300px;
+}
+.divDatos1{
+    float: left;
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 300px;
+    background-color:rgb(255, 255, 255);
+}
+.divDatos2{
+    float: left;
+    margin-top: 50px;
+    margin-left: 75px;
+    width: 300px;
+    background-color:rgb(255, 255, 255);
+}
+.ulDatos{
+    display: block;
+}
+
+.liDatos{
+    overflow: hidden;
+    padding-bottom: 16px;
+}
+.pDatos{
+    font-size: 2em;
+    text-align: center;
+}
+.correoPass{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(241, 239, 234);
+    overflow: hidden;
+}
+.textoCP{
+    position: relative;
+    text-align: center;
+}
+.liDireccionesTitulo{
+    overflow: hidden;
+    padding-bottom: 16px;
+}
+.pMisDirecciones{
+    font-size: 2em;
+    text-align: center;
+}
+.direcciones{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(241, 239, 234);
+    overflow: hidden;
+}
+.pNombre{
+    position: relative;
+    text-align: center;
+    font-size: 1.3em;
+}
+.pDirec2{
+    position: relative;
+    text-align: left;
+    margin-left: 40px;
+}
+.pDirec1{
+    position: relative;
+    text-align: left;
+    margin-left: 5px;
+}
+.menuLateralSelect{
+    position: relative;
+    padding: 16px;
+    padding-right: 25px;
+    float:right;
+    font-size: 1.1em;
+    color: rgb(60, 51, 139);
+}
+#arrow{
+    color: black;
+}
+#tick1{
+    color: rgb(235, 6, 52);
+}
+#tick2{
+    color: rgb(235, 6, 52);
+}
