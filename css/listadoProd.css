@@ -1,0 +1,17 @@
+.con-cajas{
+      display: inline-flex;
+      justify-content: start;
+      align-items: flex-start;
+      flex-wrap:wrap;
+ }
+ .con-cajas .cajas{
+   border-radius: 1px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+   margin: 20px;
+   text-align: center;
+ }
+
+ .con-cajas .cajas{
+  transform: translate(0px);
+  box-shadow: 0 12px 17px rgba(0, 0, 0, 0.1);
+ }

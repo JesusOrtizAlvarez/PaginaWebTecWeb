@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.imagentxt{
+    margin-top: 4cm;
+    width: 100%;
+}
+.logoInfo{
+    text-align: center;
+    border: 1px solid black;
+        border-collapse: collapse ;
+        font-size: 20px;
+}
+.title{
+    background-color: red;
+    text-align: center;
+    border: 1px solid black;
+        border-collapse: collapse ;
+}
+.logoInfo2{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.preciocarrito{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+
+}
+.Precio{
+    font-size: 30px;
+
+}
+.preciocarrito{
+    border: 3px solid red;
+    border-collapse: collapse ;
+}
+.Precio{
+    text-align: center;
+}
+.Entrega{
+    font-size: 25px;
+}
+.Carrito{
+    font-size: 25px;
+    text-align: right;
+}
+.Referencias{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+
+}
+.Logotipo{
+    display: flex;
+    justify-content: space-between;
+}
+.nombre{
+    font-size: 25px;
+}
+.Venta{
+    border: 3px solid red;
+    border-collapse: collapse ;
+    width: 30%;
+    max-width: 950px;
+}
+.Datos{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.Productoprecio{
+    font-size: 35px;
+    text-align: center;
+}
+.logoInfo{
+    font-size: 1.8em;
+}

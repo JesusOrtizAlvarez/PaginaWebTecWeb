@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.menu{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color:  rgb(207, 32, 32);;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover{
+    background-color: tomato;
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+   
+}
+.crear{
+    text-decoration: none;
+    color: white;
+    text-align: center ;
+}
+.divC{
+    margin:auto;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+}    
+.buscar{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+    
+}
+.divQ{
+    width: 1180px;
+    margin: auto;
+}
+.div3{
+    width: 360px;
+    float: left;
+    background-color: rgb(247, 239, 239) ;
+    border-radius: 10px;
+}
+.div4{
+    width: 360px;
+    float: left;
+    margin-left: 50px;
+    background-color: rgb(247, 239, 239) ;
+    border-radius: 10px;
+}
+.div3 h2{
+    background-color: rgb(207, 32, 32);
+    border-radius: 10px;
+    text-align: left;
+    color: snow;
+    font-size: 1.3em;
+}
+.div3 h3{
+    color: rgb(51, 53, 54);
+    text-align: center;
+    font-size: 1em;
+    
+    
+}
+.div4 h2{
+    background-color: rgb(207, 32, 32);
+    border-radius: 10px;
+    text-align: left;
+    color: snow;
+    font-size: 1.3em;
+}
+.div4 h3{
+    color: rgb(51, 53, 54);
+    text-align: center;
+    font-size: 1em;
+    
+}
+.experiencia{
+    font-size: 1.3em;
+    text-align: center;
+}
+.h2home{
+    font-size: 1.2em;
+    text-align: center;
+}
+.imagen{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-bottom:-5cm;
+    
+}

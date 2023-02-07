@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.mainPedidos{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    bottom: 0px;
+}
+
+.divGeneralMisPedidos{
+    margin-top: 80px;
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+}
+
+.divMenuLateral{
+    float: left;
+    width: 300px;
+}
+.divPedidos{
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 400px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+}
+.ulMisPedidos{
+    display: block;
+}
+.misPedidos{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+.lin1{
+    overflow: hidden;
+}
+.liPedidos{
+    width: 100%;
+    height: 150px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: rgb(241, 239, 234);
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+}
+.fecha{
+    position: relative;
+    float: right;
+    margin-right: 5px;
+}
+.precio{
+    position: relative;
+    font-size: 2.3em;
+    margin-left: 5px;
+}
+.defPedido{
+    position: relative;
+    margin-left: 5px;
+}
+.menuLateralSelect{
+    position: relative;
+    padding: 16px;
+    padding-right: 25px;
+    float:right;
+    font-size: 1.1em;
+    color: rgb(60, 51, 139);
+}
+#arrow{
+    color: black;
+}
